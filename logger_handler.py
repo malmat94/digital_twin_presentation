@@ -8,7 +8,6 @@ def logger_handler(
         logger_name: str = "TwinLogger",
         log_file_path: Path = 'logs/twin_logs.log'
 ) -> logging.Logger:
-    # Logger configuration
     """
     Returns a logger object.
 
