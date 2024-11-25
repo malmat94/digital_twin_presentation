@@ -59,7 +59,7 @@ class Settings:
                 self.settings = json.load(settings_json)
         else:
             raise FileNotFoundError(
-                f"Settings file not found at {settings_path}"
+                f"Settings file not found at {settings_path} "
                 "Make sure to create the file according to example in "
                 "docstrings and try again."
             )
