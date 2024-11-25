@@ -6,7 +6,7 @@ import logging
 
 def logger_handler(
         logger_name: str = "TwinLogger",
-        log_file_path: Path = 'logs/twin_logs.log'
+        log_file_path: Path = Path('logs/twin_logs.log')
 ) -> logging.Logger:
     """
     Returns a logger object.
