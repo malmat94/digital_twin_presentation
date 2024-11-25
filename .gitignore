@@ -166,4 +166,5 @@ settings/
 *.json
 plots/
 logs/
-prediction_models/
+#prediction_models/
+*.joblib
